@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fillViewport="true">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".CalcVolume"
+        android:background="@color/lightBrown">
+
+        <ImageView
+            android:id="@+id/imageView18"
+            android:layout_width="wrap_content"
+            android:layout_height="1000dp"
+            android:scaleType="fitXY"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/calcvolume" />
+
+        <EditText
+            android:id="@+id/textViewL"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="230dp"
+            android:layout_marginTop="180dp"
+            android:inputType="numberDecimal"
+            android:textSize="18sp"
+            android:text=""
+            android:textAlignment="center"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/imageView18" />
+
+        <EditText
+            android:id="@+id/textViewy"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="110dp"
+            android:inputType="numberDecimal"
+            android:textSize="18sp"
+            android:text=""
+            android:textAlignment="center"
+            app:layout_constraintStart_toStartOf="@+id/textViewL"
+            app:layout_constraintTop_toBottomOf="@+id/textViewL" />
+
+        <EditText
+            android:id="@+id/textViewfi"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="28dp"
+            android:inputType="numberDecimal"
+            android:textSize="18sp"
+            android:text=""
+            android:textAlignment="center"
+            app:layout_constraintStart_toStartOf="@+id/textViewL"
+            app:layout_constraintTop_toBottomOf="@+id/textViewy" />
+
+        <EditText
+            android:id="@+id/textViewAngleB"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="26dp"
+            android:inputType="numberDecimal"
+            android:textSize="18sp"
+            android:text=""
+            android:textAlignment="center"
+            app:layout_constraintStart_toStartOf="@+id/textViewL"
+            app:layout_constraintTop_toBottomOf="@+id/textViewfi" />
+
+        <EditText
+            android:id="@+id/textViewAngleA"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="250dp"
+            android:inputType="numberDecimal"
+            android:textSize="18sp"
+            android:text=""
+            android:textAlignment="center"
+            app:layout_constraintStart_toStartOf="@+id/textViewL"
+            app:layout_constraintTop_toBottomOf="@+id/textViewAngleB" />
+
+        <TextView
+            android:id="@+id/textViewV"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="215dp"
+            android:layout_marginTop="13dp"
+            android:textSize="18sp"
+            android:text="@string/tire"
+            android:textAlignment="center"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textViewAngleA"/>
+
+        <TextView
+            android:id="@+id/textViewh"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="215dp"
+            android:layout_marginTop="8dp"
+            android:textSize="18sp"
+            android:text="@string/tire"
+            android:textAlignment="center"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textViewV" />
+
+        <TextView
+            android:id="@+id/textViewr"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="215dp"
+            android:layout_marginTop="7dp"
+            android:textSize="18sp"
+            android:text="@string/tire"
+            android:textAlignment="center"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textViewh" />
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_marginBottom="5dp"
+            android:text="@string/Result"
+            android:onClick="ClickresultVolume"
+            android:backgroundTint="@color/greyDark"
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toStartOf="@+id/button9"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"  />
+
+        <Button
+            android:id="@+id/button9"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_marginBottom="5dp"
+            android:text="@string/Clear"
+            android:onClick="ClickClearVolume"
+            android:backgroundTint="@color/greyDark"
+            android:textColor="@color/black"
+            app:layout_constraintStart_toEndOf="@+id/button6"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"/>
+
+        <Spinner
+            android:id="@+id/spinnerScrolMat"
+            android:layout_width="350dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="276dp"
+            android:entries="@array/goods"
+            android:layout_marginStart="10dp"
+            android:textAlignment="center"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@id/imageView18"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

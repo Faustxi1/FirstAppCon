@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".directory"
+    android:background="@color/lightBrown">
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="match_parent"
+        android:layout_height="730dp"
+        android:scaleType="fitXY"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/literal" />
+
+    <Spinner
+        android:id="@+id/spinnerMat"
+        android:layout_width="350dp"
+        android:layout_height="25dp"
+        android:entries="@array/goods"
+        android:layout_marginTop="255dp"
+        android:layout_marginStart="30dp"
+        android:textAlignment="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <TextView
+        android:id="@+id/textViewy"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginStart="186dp"
+        android:gravity="center"
+        android:text="@string/tire"
+        android:textSize="20sp"
+        android:typeface="normal"
+        android:textAlignment="center"
+        app:layout_constraintTop_toTopOf="@+id/spinnerMat"
+        app:layout_constraintStart_toStartOf="@+id/spinnerMat" />
+
+    <TextView
+        android:id="@+id/textViewfi"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="65dp"
+        android:layout_marginStart="186dp"
+        android:gravity="center"
+        android:text="@string/tire"
+        android:textSize="20sp"
+        android:typeface="normal"
+        android:textAlignment="center"
+        app:layout_constraintTop_toTopOf="@+id/textViewy"
+        app:layout_constraintStart_toStartOf="@+id/spinnerMat" />
+
+    <TextView
+        android:id="@+id/textViewBangle"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginStart="186dp"
+        android:gravity="center"
+        android:text="@string/tire"
+        android:textSize="20sp"
+        android:typeface="normal"
+        android:textAlignment="center"
+        app:layout_constraintTop_toTopOf="@+id/textViewfi"
+        app:layout_constraintStart_toStartOf="@+id/spinnerMat" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="520dp"
+        android:text="@string/show"
+        android:onClick="showGoods"
+        android:backgroundTint="@color/greyDark"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

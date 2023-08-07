@@ -1,0 +1,413 @@
+<resources>
+    <string name="app_name">FirstAppCon</string>
+    <string name="_3"><![CDATA[<3]]></string>
+    <string name="_1_2">1.2</string>
+    <string name="_0_95">0.95</string>
+    <string name="_0_96">0.96</string>
+    <string name="_10">10 Градусов</string>
+    <string name="_20">20 Градусов</string>
+    <string name="_30">30 Градусов</string>
+    <string name="_40">40 Градусов</string>
+    <string name="ressss">---</string>
+    <string name="Result">Расчитать</string>
+    <string name="Clear">Очистить</string>
+    <string name="_1_6">1.6</string>
+    <string name="changeTraseCon">Выбор трассы конвейера</string>
+    <string name="Horisontal">Горизонтальный</string>
+    <string name="Angle">Наклонный</string>
+    <string name="doublecon">Ломанный</string>
+    <string name="NoResult">---</string>
+    <string name="tire">---</string>
+    <string name="_800">800</string>
+    <string name="_315">315</string>
+    <string name="show">Показать</string>
+    <string name="_0_9">0.9</string>
+    <string name="nulledition">Заполни все поля</string>
+    <string-array name="con">
+        <item>Выберите угол наклона конвейера</item>
+        <item>1-5 градусов</item>
+        <item>6-10 градусов</item>
+        <item>11-15 градусов</item>
+        <item>15-20 градусов</item>
+    </string-array>
+    <string-array name="bullname">
+        <item>---</item>
+        <item>Стальной или чугунный без футеровки</item>
+        <item>Футерованный резиной</item>
+        <item>Футерованный прорезиненной лентой без обкладки</item>
+    </string-array>
+    <string-array name="Nature">
+        <item>---</item>
+        <item>Легкие</item>
+        <item>Средние</item>
+        <item>Тяжелые</item>
+        <item>Очень тяжелые</item>
+    </string-array>
+    <string-array name="pulli">
+        <item>---</item>
+        <item>180</item>
+        <item>210</item>
+        <item>270</item>
+    </string-array>
+    <string-array name="width">
+        <item>---</item>
+        <item>500</item>
+        <item>650</item>
+        <item>800</item>
+        <item>1000</item>
+        <item>1200</item>
+        <item>1400</item>
+        <item>1600</item>
+    </string-array>
+    <string-array name="goods">
+        <item>Выберите материал</item>
+        <item>Англомерат железной руды</item>
+        <item>Англомерат Свинцовой руды</item>
+        <item>Антрацит рядовой</item>
+        <item>Аммофос</item>
+        <item>Апатитовый концентрат</item>
+        <item>Асбест, сорт 1-У</item>
+        <item>Асбест, сорт У1-У11</item>
+        <item>Брикеты из бурого угля</item>
+        <item>Боксит дробленый</item>
+        <item>Гранит крупностью 0-80 мм</item>
+        <item>Галька круглая, сухая</item>
+        <item>Гипс порошкообразный</item>
+        <item>Глина кусковая, сухая</item>
+        <item>Глина кусковая, влажная</item>
+        <item>Глина пылевидная</item>
+        <item>Глинозем порошкообразный, сухой</item>
+        <item>Гравий рядовой, сухой</item>
+        <item>Гравий влажный, мытый</item>
+        <item>Доломит необожженный 50-80мм</item>
+        <item>Земля грунтовая, влажная</item>
+        <item>Земля грунтовая, сухая</item>
+        <item>Земля формовочная, готовая</item>
+        <item>Земля формовочная, выбитая</item>
+        <item>Зола сухая</item>
+        <item>Известняк мелкий и среднекусковой</item>
+        <item>Известь порошкообразная</item>
+        <item>Калий хлористый</item>
+        <item>Камень мелко и среднекусковой,рядовой</item>
+        <item>Кокс рядовой</item>
+        <item>Коксик с мелочью</item>
+        <item>Колчедан серный, рядовой</item>
+        <item>Колчедан флотационный</item>
+        <item>Концентрат железных руд, влажный</item>
+        <item>Мел кусковый</item>
+        <item>Окатыши железорудные</item>
+        <item>Окалина</item>
+        <item>Песок карьерный, рядовой</item>
+        <item>Песок чистый, формовочный</item>
+        <item>Песчано-гравийная смесь</item>
+        <item>Порода грунтовая</item>
+        <item>Пыль колошниковая</item>
+        <item>Руда крупностью 0 - 125 мм, рядовая</item>
+        <item>Сера гранулированная</item>
+        <item>Сера двууглекислая</item>
+        <item>Соль поваренная, зернистая</item>
+        <item>Соль калийная</item>
+        <item>Соль каменная, кусковая</item>
+        <item>Торф фрезерный</item>
+        <item>Уголь бурый, сухой</item>
+        <item>Уголь бурый, влажный</item>
+        <item>Уголь каменный рядовой</item>
+        <item>Угольная пыль с мелочью</item>
+        <item>Удобрения минеральные</item>
+        <item>Цемент воздушно-сухой</item>
+        <item>Шлак каменноугольный</item>
+        <item>Штыб сухой</item>
+        <item>Щебень сухой</item>
+    </string-array>
+    <string-array name="Destiny_array">
+        <item>-----</item>
+        <item>1,6-2</item>
+        <item>2-3,5</item>
+        <item>0,8-1</item>
+        <item>0,9-1,1</item>
+        <item>1,3-1,7</item>
+        <item>0,3-0,6</item>
+        <item>0,4-0,8</item>
+        <item>0,7-1</item>
+        <item>1,3-1,5</item>
+        <item>1,5</item>
+        <item>1,5-1,8</item>
+        <item>1,2-1,4</item>
+        <item>1,6-1,8</item>
+        <item>1,9-2,1</item>
+        <item>0,4-1,2</item>
+        <item>0,9-1,3</item>
+        <item>1,5-1,8</item>
+        <item>1,8-1,9</item>
+        <item>1,7-1,9</item>
+        <item>1,6-2</item>
+        <item>1,1-1,6</item>
+        <item>1,6</item>
+        <item>1,2-1,3</item>
+
+        <item>0,6-0,9</item>
+        <item>1,4-1,7</item>
+        <item>0,5-0,9</item>
+        <item>0,9</item>
+        <item>1,3-1,5</item>
+        <item>0,4-0,5</item>
+        <item>0,6-0,9</item>
+        <item>2</item>
+        <item>3,2-5</item>
+        <item>1,4-1,6</item>
+        <item>1,8-2,2</item>
+        <item>2-2,2</item>
+        <item>1,4-1,6</item>
+        <item>1,3-1,5</item>
+        <item>1,6-1,8</item>
+        <item>1,6-1,7</item>
+        <item>1,1-2</item>
+        <item>2-2,4</item>
+        <item>1,4</item>
+        <item>1</item>
+        <item>1-1,2</item>
+        <item>1,1</item>
+        <item>0,8-1,8</item>
+        <item>1</item>
+        <item>0,3-0,5</item>
+        <item>0,5-0,6</item>
+        <item>0,6-0,8</item>
+        <item>0,6-0,8</item>
+        <item>0,6-0,7</item>
+        <item>1-2</item>
+        <item>1-1,5</item>
+        <item>0,4-0,9</item>
+        <item>0,9</item>
+        <item>1,5-1,8</item>
+    </string-array>
+    <string-array name="slope_array">
+        <item>-----</item>
+        <item>45</item>
+        <item>40-50</item>
+        <item>45</item>
+        <item>33-42</item>
+        <item>30-40</item>
+        <item>50</item>
+        <item>45</item>
+        <item>35-40</item>
+        <item>40-50</item>
+        <item>45</item>
+        <item>30</item>
+        <item>40</item>
+        <item>40</item>
+        <item>50</item>
+        <item>20</item>
+        <item>35</item>
+        <item>30-45</item>
+        <item>40-50</item>
+        <item>35-40</item>
+        <item>35-45</item>
+        <item>30-40</item>
+        <item>40-45</item>
+        <item>30-45</item>
+        <item>45-50</item>
+        <item>35-40</item>
+        <item>50</item>
+        <item>46</item>
+        <item>37-40</item>
+        <item>30</item>
+        <item>50</item>
+        <item>45</item>
+        <item>25-50</item>
+        <item>40</item>
+        <item>35-40</item>
+        <item>30-35</item>
+        <item>35-40</item>
+        <item>30-35</item>
+        <item>40-45</item>
+        <item>45-50</item>
+        <item>30-50</item>
+        <item>45</item>
+        <item>44</item>
+        <item>50</item>
+        <item>46</item>
+        <item>30-50</item>
+        <item>40-50</item>
+        <item>30-45</item>
+        <item>15-20</item>
+        <item>35-40</item>
+        <item>30-40</item>
+        <item>35-40</item>
+        <item>30-45</item>
+        <item>35-45</item>
+    </string-array>
+    <string-array name="conveyor_array">
+        <item>-----</item>
+        <item>18</item>
+        <item>18</item>
+        <item>17</item>
+        <item>16</item>
+        <item>16</item>
+        <item>-</item>
+        <item>-</item>
+        <item>14</item>
+        <item>18</item>
+        <item>18</item>
+        <item>10</item>
+        <item>22</item>
+        <item>16</item>
+        <item>24</item>
+        <item>22</item>
+        <item>-</item>
+        <item>18</item>
+        <item>20</item>
+        <item>18</item>
+        <item>22</item>
+        <item>18</item>
+        <item>24</item>
+        <item>22</item>
+        <item>18</item>
+        <item>18</item>
+        <item>23</item>
+        <item>-</item>
+        <item>18</item>
+        <item>15</item>
+        <item>18</item>
+        <item>17</item>
+        <item>17</item>
+        <item>22</item>
+        <item>15</item>
+        <item>12</item>
+        <item>18</item>
+        <item>20</item>
+        <item>15</item>
+        <item>22</item>
+        <item>20</item>
+        <item>18</item>
+        <item>18</item>
+        <item>18</item>
+        <item>20</item>
+        <item>18</item>
+        <item>16</item>
+        <item>18</item>
+        <item>18</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>20</item>
+        <item>20</item>
+        <item>18</item>
+    </string-array>
+
+    <string-array name="Destiny">
+        <item>-----</item>
+        <item>1,6</item>
+        <item>2.5</item>
+        <item>1</item>
+        <item>1.1</item>
+        <item>1.6</item>
+        <item>0.6</item>
+        <item>0,8</item>
+        <item>1</item>
+        <item>1.5</item>
+        <item>1.5</item>
+        <item>1.8</item>
+        <item>1.4</item>
+        <item>1.6</item>
+        <item>1.9</item>
+        <item>0.8</item>
+        <item>1.1</item>
+        <item>1.6</item>
+        <item>1.8</item>
+        <item>1.8</item>
+        <item>1.8</item>
+        <item>1.3</item>
+        <item>1.6</item>
+        <item>1.3</item>
+        <item>0.8</item>
+        <item>1.6</item>
+        <item>0.8</item>
+        <item>0.9</item>
+        <item>1.4</item>
+        <item>0.5</item>
+        <item>0.8</item>
+        <item>2</item>
+        <item>4</item>
+        <item>1.5</item>
+        <item>2</item>
+        <item>2</item>
+        <item>1.5</item>
+        <item>1.5</item>
+        <item>1.5</item>
+        <item>1.6</item>
+        <item>1.6</item>
+        <item>2.2</item>
+        <item>1.4</item>
+        <item>1</item>
+        <item>1.1</item>
+        <item>1.1</item>
+        <item>1.6</item>
+        <item>1</item>
+        <item>0.4</item>
+        <item>0.5</item>
+        <item>0.7</item>
+        <item>0.7</item>
+        <item>0.7</item>
+        <item>1.5</item>
+        <item>1.5</item>
+        <item>0.7</item>
+        <item>0.9</item>
+        <item>1.7</item>
+    </string-array>
+    <string-array name="slope">
+        <item>-----</item>
+        <item>45</item>
+        <item>45</item>
+        <item>45</item>
+        <item>40</item>
+        <item>35</item>
+        <item>50</item>
+        <item>45</item>
+        <item>40</item>
+        <item>45</item>
+        <item>45</item>
+        <item>30</item>
+        <item>40</item>
+        <item>40</item>
+        <item>50</item>
+        <item>20</item>
+        <item>35</item>
+        <item>40</item>
+        <item>45</item>
+        <item>40</item>
+        <item>45</item>
+        <item>40</item>
+        <item>45</item>
+        <item>45</item>
+        <item>45</item>
+        <item>40</item>
+        <item>50</item>
+        <item>46</item>
+        <item>40</item>
+        <item>30</item>
+        <item>50</item>
+        <item>45</item>
+        <item>50</item>
+        <item>40</item>
+        <item>40</item>
+        <item>35</item>
+        <item>40</item>
+        <item>35</item>
+        <item>45</item>
+        <item>50</item>
+        <item>40</item>
+        <item>45</item>
+        <item>44</item>
+        <item>50</item>
+        <item>46</item>
+        <item>40</item>
+        <item>45</item>
+        <item>40</item>
+        <item>20</item>
+        <item>40</item>
+        <item>40</item>
+        <item>40</item>
+        <item>45</item>
+        <item>45</item>
+    </string-array>
+</resources>
