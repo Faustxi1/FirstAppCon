@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    style="@android:style/Widget.DeviceDefault.ScrollView"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/lightBrown"
     android:fillViewport="true"
-    android:background="@color/lightBrown">
+    android:scrollbarStyle="insideInset"
+    android:scrollbarSize="10dp">
+
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -15,7 +18,7 @@
         <ImageView
             android:id="@+id/imageView2"
             android:layout_width="wrap_content"
-            android:layout_height="150dp"
+            android:layout_height="140dp"
             android:layout_margin="8dp"
             android:onClick="ClickWidth"
             android:scaleType="fitXY"
@@ -23,10 +26,11 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:srcCompat="@drawable/_zv" />
+
         <ImageView
             android:id="@+id/imageView"
             android:layout_width="wrap_content"
-            android:layout_height="150dp"
+            android:layout_height="140dp"
             android:layout_marginTop="8dp"
             android:onClick="ClickPower"
             android:scaleType="fitXY"
@@ -39,62 +43,62 @@
         <ImageView
             android:id="@+id/imageView3"
             android:layout_width="wrap_content"
-            android:layout_height="150dp"
-            app:srcCompat="@drawable/_zn"
+            android:layout_height="140dp"
             android:layout_marginTop="8dp"
             android:onClick="ClickCalcCapacity"
             android:scaleType="fitXY"
-            app:layout_constraintTop_toBottomOf="@+id/imageView"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent" />
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView"
+            app:srcCompat="@drawable/_zn" />
 
         <ImageView
             android:id="@+id/imageView4"
             android:layout_width="wrap_content"
-            android:layout_height="254dp"
-            app:srcCompat="@drawable/_zm"
+            android:layout_height="180dp"
             android:layout_marginTop="8dp"
             android:onClick="ClickCalcHole"
             android:scaleType="fitXY"
-            app:layout_constraintTop_toBottomOf="@+id/imageView3"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent" />
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView3"
+            app:srcCompat="@drawable/_zm" />
 
         <ImageView
             android:id="@+id/imageView5"
             android:layout_width="wrap_content"
-            android:layout_height="200dp"
-            app:srcCompat="@drawable/_zkk"
+            android:layout_height="180dp"
             android:layout_marginTop="8dp"
             android:onClick="ClickDirectory"
             android:scaleType="fitXY"
-            app:layout_constraintTop_toBottomOf="@+id/imageView4"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent" />
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView4"
+            app:srcCompat="@drawable/_zkk" />
 
         <ImageView
             android:id="@+id/imageView6"
             android:layout_width="wrap_content"
-            android:layout_height="130dp"
-            app:srcCompat="@drawable/_zii"
+            android:layout_height="110dp"
             android:layout_marginTop="8dp"
             android:onClick="ClickCalcVolume"
             android:scaleType="fitXY"
-            app:layout_constraintTop_toBottomOf="@+id/imageView5"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent" />
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView5"
+            app:srcCompat="@drawable/_zii" />
 
         <ImageView
             android:id="@+id/imageView7"
             android:layout_width="wrap_content"
-            android:layout_height="256dp"
-            app:srcCompat="@drawable/_zty"
+            android:layout_height="180dp"
             android:layout_marginTop="8dp"
             android:layout_marginBottom="8dp"
             android:onClick="ClickCalcPit"
             android:scaleType="fitXY"
-            app:layout_constraintTop_toBottomOf="@+id/imageView6"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent" />
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView6"
+            app:srcCompat="@drawable/_zty" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>
